@@ -14,13 +14,14 @@ Linear feedback shift register(**LFSR**) is a digital circuit composed of linked
 Shifting the LFSR left/right with one bit and replacing the lost bit in a deterministic 
 manner with respect to some bits of the previous state creates this mechanism of pseudo 
 random bit generation.
-<br>
+<br>ls
+
 <br>
 In this example the new bit value is the result of the XOR operation between the value
 of the first register and the third.
 <br>
 
-![LFSR3](LFSR3.png)
+![LFSR_EXAMPLE](readme_resources/LFSR3.png)
 
 The **initial state** of the LFSR and the **registers who contribute** at computing the next bit
 are **the seed** of the generator.
@@ -46,7 +47,7 @@ Linear feedback shift registers are good pseudo random bit generators due to the
 ## Results
 <a name="results"></a>
 
-![result.png](result.png)
+![RESULT](readme_resources/result.png)
 
 ## Bibliography
 <a name="bibliography"></a>
